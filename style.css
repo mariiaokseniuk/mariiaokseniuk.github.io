@@ -303,6 +303,13 @@ nav #menu li a:hover {
 }
 
 /*--------------- projects section --------------- */
+
+.photo1 {
+  float:left;
+margin: 4px 10px 2px 0px;
+padding:6px;
+}
+
 h6 {
       text-align: center;
 }
@@ -320,14 +327,14 @@ h6 {
 }
 
 .project1 {
-      background: url(https://img.techpowerup.org/200627/wechatimg359.jpg) no-repeat 50% 50%;
+      background: url(https://img.techpowerup.org/200708/31-89516.jpg) no-repeat 50% 50%;
       background-size: cover;
       right: 10%;
 
 }
 
 .project1::after {
-      content: "Inokashira Park : chill and peaceful atmosphere. Park is located in Tokyo, Kichijoji area, where a lot of trendy and stylish cafes and shops are.";
+      content: "SKY STAGE : The view of Tokyo by night,  especially the vibrant Shibuya, is an attraction in itself. SKY STAGE takes it to another level.                 LEARN MORE>>>";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -346,7 +353,7 @@ h6 {
 }
 
 .project2::after {
-      content: "On the 46th and 47th floors of Caretta Shiodome in Shimbashi, you’ll find an impressive observatory offering panoramic views of the city + Tokyo Bay.";
+      content: "On the 46th and 47th floors of Caretta Shiodome in Shimbashi, you’ll find an impressive observatory offering panoramic views of the city + Tokyo Bay. LEARN MORE>>>";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -364,7 +371,7 @@ h6 {
 }
 
 .project3::after {
-      content: "Hiroo : It’s a great area to explore the latest Tokyo food culture as numbers of swanky spots gather in this area, such as cafes and restaurants.";
+      content: "Hiroo : It’s a great area to explore the latest Tokyo food culture as numbers of swanky spots gather in this area, such as restaurants. LEARN MORE>>>";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -382,7 +389,7 @@ h6 {
 }
 
 .project4::after {
-      content: "Tsukiji Honganji Temple : Jodo Shinshu Buddhism temple with an unique look as the main hall of the temple was constructed with a motif of ancient Indian architecture.";
+      content: "Tsukiji Honganji Temple : Jodo Shinshu Buddhism temple with an unique look as the main hall of the temple was constructed with a motif of ancient architecture. LEARN MORE>>>";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -539,7 +546,7 @@ h6 {
 }
 
 .image {
-      background: url(https://img.techpowerup.org/200622/1-uyumdy7umlung-nxvhoh4a-2x.jpg) no-repeat 50% 70%;
+      background: url(https://img.techpowerup.org/200708/q191024-14-darker-side.jpg) no-repeat 50% 70%;
 }
 /*---------------about page --------------- */
 
@@ -550,6 +557,22 @@ h6 {
 
 .image1 {
       background: url(https://img.techpowerup.org/200618/photo-1541827501129-68e96153db1e.jpg) no-repeat 50% 70%;
+}
+
+
+div.site-branding-text { /* Position text within site-branding */
+    display: inline;
+    width: 350px;
+    margin: auto 0;
+    vertical-align: middle;
+}
+
+div.site-branding-title { /* Position title within text */
+    display: inline;
+}
+
+div.site-branding-tagline { /* Position tagline within text */
+    display: block;
 }
 
 /*--------------- contact form --------------- */
@@ -637,4 +660,28 @@ textarea:focus {
 
 .next p {
       text-align: right;
+}
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
 }
