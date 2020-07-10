@@ -119,17 +119,20 @@
   let massPopChart = new Chart(myChart, {
     type:'bar', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
     data:{
-      labels:['Akihabara', 'Kabuki', 'Anime', 'Sakura', 'Harajuku', 'Odaiba', 'Food' ],
+      labels:['New York','Tokyo', 'Seoul', 'Osaka', 'Mecca', 'Pattaya', 'Milan', 'Barcelona', 'Bali', ],
       datasets:[{
-        label:'Level of fun',
+        label:'Million',
         data:[
-          600000,
-          600000,
-          600000,
-          600000,
-          600000,
-          600000,
-          600000
+          13.6,
+          12.93,
+          11.25,
+          10.14,
+          10,
+          9.44,
+          9.10,
+          9.09,
+          8.26,
+        10
         ],
         //backgroundColor:'green',
         backgroundColor:[
@@ -139,7 +142,9 @@
           'rgba(75, 192, 192, 0.6)',
           'rgba(153, 102, 255, 0.6)',
           'rgba(255, 159, 64, 0.6)',
-          'rgba(42, 192, 122, 0.6)'
+          'rgba(42, 192, 122, 0.6)',
+          'rgba(255, 99, 132, 0.6)',
+          'rgba(54, 162, 235, 0.6)',
         ],
         borderWidth:1,
         borderColor:'#777',
@@ -150,7 +155,7 @@
     options:{
       title:{
         display:true,
-        text:'Why do you need to visit Tokyo?',
+        text:'Most visited cities around the world in 2019',
         fontSize:25
       },
       legend:{
